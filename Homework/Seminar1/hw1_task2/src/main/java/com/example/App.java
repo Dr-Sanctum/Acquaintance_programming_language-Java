@@ -9,6 +9,7 @@ public class App
 {
     public static void main( String[] args )
     {
+        //Реализован алгоритм решета Эратосфена для поиска простых чисел в заданном промежутке
         ArrayList<Integer> list_normal_number = new ArrayList<Integer>();
         for (int i = 2; i <= 1000; i++) {
             list_normal_number.add(i);

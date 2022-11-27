@@ -8,7 +8,7 @@ import java.util.Scanner;
  */
 public class App {
     public static void main(String[] args) {
-        System.out.println("Введите число = ");
+        System.out.print("Введите число - ");
         Scanner scanner = new Scanner(System.in, "cp866");
         int number = Integer.parseInt(scanner.nextLine());
         scanner.close();
